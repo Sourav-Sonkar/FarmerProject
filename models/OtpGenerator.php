@@ -27,7 +27,7 @@ function contactOtpGenerator($otp, $contact)
         CURLOPT_CUSTOMREQUEST => "POST",
         CURLOPT_POSTFIELDS => json_encode($field),
         CURLOPT_HTTPHEADER => array(
-            "authorization:zTxe42WBDmPiCVaZugLOGR9UJo1KM8lnIjbXq7kEyp05NYh6HskZGvpuU23intb1Nlo0QF6RqXWVCDPy ",
+            "authorization:your api key ",
             "cache-control: no-cache",
             "accept: */*",
             "content-type: application/json"
